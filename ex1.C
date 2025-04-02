@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-int main() {
+int main() {  
  
- int contador = 1;
+ int contador = 0;
  int fim = 3;
  int numero = 0;
+
+ 
  
 do{
   printf("digite um numero:") ;
@@ -25,6 +27,6 @@ do{
      
 
     
-} while( contador <= fim  ) ;
+} while( contador < fim  ) ;
     return 0;
 }
