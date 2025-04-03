@@ -1,19 +1,19 @@
 #include <stdio.h>
 
-int testapar (int x) {
-    if(x % 2 ==0){
+int testa_par (int x) {
+    if (x % 2 == 0) {
         return 1;
     } else {
         return 0;
     }
-}  
+}
 
-int main(void) {
-    int x;
-    
-  printf("digite um numero:") ;
-  scanf("%d" , &x);
+int main (void) {
+    int numero = 0;
 
-printf()
+    printf("Digite um número:");
+    scanf("%d", &numero);
+    printf("%d", testa_par(numero));
 
+    return 0;
 }
